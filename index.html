@@ -1,0 +1,307 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>JS framework criteria</title>
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/black.css">
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+    <!-- Printing and PDF exports -->
+    <script>
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+        document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
+</head>
+<body>
+<div class="reveal">
+    <div class="slides">
+        <section data-background="images/frameworks.png">
+            <h1><span class="custom-title">Критерии выбора <br><span class="eng">JS</span> фреймверков</span></h1>
+            <p>
+                Юрий Лучанинов / <a href="https://mobidev.biz/" class="eng">mobidev.biz</a>
+            </p>
+            <p>
+                <small><a href="mailto:y.luchaninov@mobidev.biz" target="_top">y.luchaninov@mobidev.biz</a></small>
+            </p>
+        </section>
+        <section>
+            <h2>Почему?</h2>
+            <ul style="font-size: 1.5em;">
+                <li class="fragment">210+ сотрудников</li>
+                <li class="fragment">7 лет в бизнесе</li>
+                <li class="fragment blue">более 280 проектов</li>
+            </ul>
+        </section>
+        <section data-background="images/customers.jpg">
+            <h1><span class="custom-title2">Почему <span class="eng">JS?</span></span></h1>
+        </section>
+        <section>
+            <h2>Один кейс, два примера:</h2>
+            <ul style="font-size: 1.5em;">
+                <li class="fragment green">Enterprise</li>
+                <li class="fragment blue">Startup</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Все зависит от точки зрения:</h2>
+            <ul style="font-size: 1.5em;">
+                <li class="fragment green">Собственник программного продукта</li>
+                <li class="fragment blue">Конечный пользователь</li>
+                <li class="fragment warning">Разработчик</li>
+            </ul>
+        </section>
+        <section data-background-color="#3eae65">
+            <h1><span class="light">Заказчик</span></h1>
+            <h4><span class="light">"Собственник программного продукта"</span></h4>
+        </section>
+        <section data-background-color="#3eae65">
+            <h3><span class="light">Критерии:</span></h3>
+            <ul class="light">
+                <li class="fragment">Бюджет проекта</li>
+                <li class="fragment">Реализация требуемого функционала</li>
+                <li class="fragment">Удовлетворенность конечного пользователя</li>
+            </ul>
+        </section>
+        <section data-background-color="#3eae65">
+            <h3><span class="light">Бюджет проекта:</span></h3>
+            <ul class="light">
+                <li class="fragment">Создание</li>
+                <li class="fragment">Поддержка</li>
+            </ul>
+        </section>
+        <section data-background-color="#388cbc">
+            <h1><span class="light">Конечный пользователель</span></h1>
+            <h4><span class="light">"Тот, кто ничего не хочет знать о реализации"</span></h4>
+        </section>
+        <section data-background-color="#388cbc">
+            <h3><span class="light">Критерии:</span></h3>
+            <ul class="light">
+                <li>"Нравится"</li>
+                <li>"Мне ЭТО надо"</li>
+            </ul>
+        </section>
+        <section data-background-color="#388cbc">
+            <h3><span class="light">Нравится:</span></h3>
+            <ul class="light">
+                <li>"Не тормозит"</li>
+                <li>"Красиво и удобно"</li>
+                <li class="warning">"Выполняет все что требуется, так как я этого ожидаю"</li>
+            </ul>
+        </section>
+        <section data-background-color="#d56850">
+            <h1><span class="light">Разработчик</span></h1>
+            <h4><span class="light">"Вы до сих пор серьезно считаете, что от вас много зависит?"</span></h4>
+        </section>
+        <section data-background-color="#d56850">
+            <h4><span class="light">"Редко кто из девелоперов задумывается о том, какие же критерии действительно
+                важны для выбора фреймворка, и как эти критерии непосредственно влияют на бизнес,
+                для которого разрабатывается приложение."</span></h4>
+        </section>
+        <section data-background-color="#d56850">
+            <h2><span class="light">Производительность<span class="eng">?</span></span></h2>
+        </section>
+        <section data-background-color="#f5f3f1">
+            <h3>What is Performance?</h3>
+            <div style="position:relative; height:405px; margin:0 auto;">
+                <img class="img" height="405" src="images/first.png"/>
+                <img class="img fragment" height="405" src="images/first_1.png"/>
+                <img class="img fragment" height="405" src="images/first_2.png"/>
+                <img class="img fragment" height="405" src="images/first_3.png"/>
+            </div>
+            <p><span class="warning">"Fast is good, faster is better"</span> - every bit of pref research</p>
+        </section>
+        <section data-background-color="#f5f3f1">
+            <h3><span class="warning eng">In Real Life</span></h3>
+            <div style="position:relative; height:405px; margin:0 auto;">
+                <img class="img fragment" height="405" src="images/second.png"/>
+                <img class="img fragment" height="405" src="images/second_1.png"/>
+                <img class="img fragment" height="405" src="images/second_2.png"/>
+            </div>
+        </section>
+        <section data-background-color="#d56850">
+            <h3><span class="light">На самом деле</span></h3>
+            <h5><span class="light">Производительность важна только в двух случаях:</span></h5>
+            <ul class="light">
+                <li>Пользователь - <span class="fragment" style="font-weight: bold;">"Не тормозит!"</span></li>
+                <li>Собственник - <span class="fragment" style="font-weight: bold;">"Удовлетворяет функциональным требованиям!"</span>
+                </li>
+            </ul>
+        </section>
+        <section data-background-color="#d56850">
+            <h3><span class="light eng">RAIL</span></h3>
+            <ul class="light">
+                <li><span class="eng fragment">Response - 100ms</span></li>
+                <li><span class="eng fragment">Animation - 16ms</span></li>
+                <li><span class="eng fragment">Idle - 50ms</span></li>
+                <li><span class="eng fragment">Load - 1s</span></li>
+            </ul>
+        </section>
+        <section data-background-color="#d56850">
+            <h3><span class="light">Именно поэтому:</span></h3>
+            <div class="light">“сколько <span class="eng">FPS</span> выдает фреймворк <span class="green eng">X</span>
+                или <span class="blue eng">Y</span>” бесполезно
+            </div>
+        </section>
+        <section data-background-color="#d56850">
+            <h3><span class="light">А Важно:</span></h3>
+            <ul class="light">
+                <li><span class="fragment">Относительное быстродействие – если фреймворк X тормозит
+                    в похожем приложении у конкурентов, то какой примерно мы сможем получить прирост,
+                    если заменим на Y?</span></li>
+                <li><span class="fragment">Возможность оптимизации - это позволит использовать ваше приложение на
+                    более слабых устройствах, то есть расширить покрытие.</span></li>
+            </ul>
+        </section>
+        <section data-background-color="#d56850">
+            <h3><span class="light">Бюджет разработки:</span></h3>
+            <ul class="light">
+                <li><span class="fragment">Скорость разработки.</span></li>
+                <li><span class="fragment">“Расширяемость” – возможности использовать сторонние модули и необходимой адаптации
+                    стороннего кода.</span></li>
+                <li><span
+                        class="fragment">Комьюнити – чем оно больше, тем проще найти реализацию стандартных задач.</span>
+                </li>
+            </ul>
+        </section>
+        <section data-background-color="#d56850">
+            <h3><span class="light">Бюджет подержки:</span></h3>
+            <ul class="light">
+                <li><span class="fragment">"Самодостаточность"</span></li>
+                <li><span class="fragment">Комьюнити</span></li>
+            </ul>
+        </section>
+        <section data-background-color="#d56850">
+            <h3><span class="light">Для обоих Бюджетов:</span></h3>
+            <div class="light">"Write less, think more"</div>
+        </section>
+        <section data-background-color="#d56850">
+            <pre><code>export class Counter extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {count: props.initialCount};
+    this.tick = this.tick.bind(this);
+  }
+  tick() {
+    this.setState({count: this.state.count + 1});
+  }
+  render() {
+    return (
+      <div onClick={this.tick}>
+        {this.state.count}
+      </div>
+    );
+  }
+}
+Counter.propTypes = { initialCount: React.PropTypes.number };
+Counter.defaultProps = { initialCount: 0 };</code></pre>
+        </section>
+        <section data-background-color="#d56850">
+            <pre><code>@Component({
+    selector: 'counter',
+    template: '<div (click)="tick()">{{count}}</div>'
+})
+export class Counter {
+    count = 0;
+    tick(){
+        this.count += 1;
+    }
+}</code></pre>
+        </section>
+        <section data-background-color="#d56850">
+            <pre><code>export Counter extend View {
+    events = {
+        'click div': 'tick'
+    };
+    counter = 0;
+    tick(){
+        this.counter +=1;
+        this.render();
+    }
+}</code></pre>
+        </section>
+        <section data-background-color="#d56850">
+            <h3><span class="light">FUN</span></h3>
+            <ul class="light">
+                <li class="fragment">Эргономика</li>
+                <li class="fragment">Красота</li>
+                <li class="fragment">Простота</li>
+                <li class="fragment">Понятность</li>
+                <li class="fragment">Мелочи, которые делают работу с кодом приятной и желанной</li>
+            </ul>
+        </section>
+        <section data-background-color="#d56850">
+            <h3><span class="light">Итого:</span></h3>
+            <ul class="light">
+                <li class="fragment">относительное быстродействие</li>
+                <li class="fragment">возможность оптимизации</li>
+                <li class="fragment">скорость разработки</li>
+                <li class="fragment">расширяемость</li>
+                <li class="fragment">самодостаточность</li>
+                <li class="fragment">комьюнити</li>
+                <li class="fragment">краткость и прозрачность кода</li>
+                <li class="fragment">фан</li>
+                <li class="fragment">свитчинг/опыт</li>
+            </ul>
+        </section>
+        <section data-background-color="#d56850">
+            <h3><span class="light">Что еще надо учитывать:</span></h3>
+            <ul class="light">
+                <li class="fragment">СЕО</li>
+                <li class="fragment">социальные сети</li>
+                <li class="fragment">мобильная разработка</li>
+            </ul>
+        </section>
+        <section>
+            <h1>Как делать нельзя</h1>
+        </section>
+        <section>
+            <h3>Нельзя просто сравнивать не зная специфики проекта</h3>
+        </section>
+        <section>
+            <div style="height: 500px;">
+                <img class="img" height="500" width="442" src="images/frm.png"/>
+            </div>
+        </section>
+        <section>
+            <h1>Правильно, это:</h1>
+            <h3>каждый инструмент выбираеться, исходя из критериев конкретной поставленной задачи!</h3>
+        </section>
+        <section>
+            <h1>Вопросы?</h1>
+        </section>
+    </div>
+</div>
+
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.js"></script>
+
+<script>
+    // More info https://github.com/hakimel/reveal.js#configuration
+    Reveal.initialize({
+        history: true,
+
+        // More info https://github.com/hakimel/reveal.js#dependencies
+        dependencies: [
+            {src: 'plugin/markdown/marked.js'},
+            {src: 'plugin/markdown/markdown.js'},
+            {src: 'plugin/notes/notes.js', async: true},
+            {
+                src: 'plugin/highlight/highlight.js', async: true, callback: function () {
+                hljs.initHighlightingOnLoad();
+            }
+            }
+        ]
+    });
+</script>
+</body>
+</html>
