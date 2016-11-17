@@ -81,15 +81,6 @@ pre {
     width: 900px;
 }
 
-.custom-title {
-    color: #f6e3cd;
-    text-shadow: 2px 2px #a07e7e;
-}
-.custom-title2 {
-    color: #0b1d26;
-    text-shadow: 2px 2px #787878;
-}
-
 .img {
     background: none !important;
     border: none !important;
@@ -99,4 +90,16 @@ pre {
     top: 0;
     left: 50%;
     transform: translateX(-50%);
+}
+
+.customer {
+    color: #1F4B22;
+}
+
+.user {
+    color: #27553A;
+}
+
+.dev {
+    color: #1c3955;
 }
